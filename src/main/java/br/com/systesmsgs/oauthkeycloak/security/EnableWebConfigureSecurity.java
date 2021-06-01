@@ -13,7 +13,7 @@ public class EnableWebConfigureSecurity extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/api/clientes")
                 .authenticated()
-                .and()
-                .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
+                .and();
+                //.oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
     }
 }

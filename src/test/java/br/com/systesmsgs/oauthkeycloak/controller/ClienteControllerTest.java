@@ -8,18 +8,18 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-@SpringBootTest
+//@SpringBootTest
 @AutoConfigureMockMvc
 public class ClienteControllerTest {
 
-    @Autowired
-    MockMvc mockMvc;
+    //@Autowired
+    //MockMvc mockMvc;
 
-    @Test
-    void cliente() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("/api/cliente"))
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("Hello Guilherme Santos"));
-    }
+    //@Test
+    //void cliente() throws Exception {
+        //mockMvc.perform(MockMvcRequestBuilders.get("/api/cliente"))
+                //.andExpect(MockMvcResultMatchers.status().isOk())
+                //.andExpect(MockMvcResultMatchers.content().string("Hello Guilherme Santos"));
+    //}
 
 }

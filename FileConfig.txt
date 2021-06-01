@@ -1,0 +1,17 @@
+
+Keycloak:
+-----Após logar cria um-----
+Realm: guilherme-keycloak
+
+-----Depois cria um -----
+Client ID: client-sample-gui
+Root URL: ${authBaseUrl}
+Valid Redirect URIs: /realms/guilherme-keycloak/account/*
+Base URL: /realms/guilherme-keycloak/account/
+
+-----Depois um Escopo-----
+Name: guilherme-keycloak-escopo
+
+-----Depois um Usuário-----
+Username: guilhermesantos
+Credentials -> Password: senha-keycloak
